@@ -3,7 +3,7 @@
 # Description: Build OpenWrt
 #============================================================================================
 
-name: openwrt
+name: openwrt2 not wifi
 
 on:
   repository_dispatch:
