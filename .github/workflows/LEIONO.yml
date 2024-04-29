@@ -79,7 +79,7 @@ jobs:
               TAGS_NAME="immortalwrt"
           elif [[ "${{ inputs.source_branch }}" == *"Lienol"* ]]; then
               REPO_URL="https://github.com/Lienol/openwrt"
-              REPO_BRANCH="22.03"
+              REPO_BRANCH="main"
               TAGS_NAME="Lienol"
           else
               echo "Unknown source code repository."
@@ -131,7 +131,7 @@ jobs:
         run: |
           cd openwrt/
           echo -e "$(nproc) thread compile"
-          make -j$(($(nproc) + 1)) V=s || make -j1 || make -j1 V=s
+          make -j$(nproc) || make -j1 || make -j1 V=s
           echo "status=success" >> ${GITHUB_OUTPUT}
 
 
