@@ -162,7 +162,7 @@ CONFIG_DEFAULT_luci-app-ramfree=y
 # CONFIG_DEFAULT_luci-app-timecontrol is not set
 CONFIG_DEFAULT_luci-app-upnp=y
 CONFIG_DEFAULT_luci-app-vlmcsd=y
-CONFIG_DEFAULT_luci-app-wol=y
+# CONFIG_DEFAULT_luci-app-wol is not set
 CONFIG_DEFAULT_luci-compat=y
 CONFIG_DEFAULT_mtd=y
 CONFIG_DEFAULT_netifd=y
