@@ -3,7 +3,7 @@
 # Description: Build OpenWrt
 #============================================================================================
 
-name: leinoo
+name: leinoo精简
 
 on:
   repository_dispatch:
