@@ -77,8 +77,8 @@ CONFIG_TARGET_ipq40xx_generic=y
 # CONFIG_TARGET_ipq40xx_generic_DEVICE_glinet_gl-b2200 is not set
 # CONFIG_TARGET_ipq40xx_generic_DEVICE_linksys_ea6350v3 is not set
 # CONFIG_TARGET_ipq40xx_generic_DEVICE_linksys_ea8300 is not set
-# CONFIG_TARGET_ipq40xx_generic_DEVICE_linksys_mr8300 is not set
-CONFIG_TARGET_ipq40xx_generic_DEVICE_linksys_whw03v2=y
+CONFIG_TARGET_ipq40xx_generic_DEVICE_linksys_mr8300=y
+# CONFIG_TARGET_ipq40xx_generic_DEVICE_linksys_whw03v2 is not set
 # CONFIG_TARGET_ipq40xx_generic_DEVICE_linksys_whw01 is not set
 # CONFIG_TARGET_ipq40xx_generic_DEVICE_luma_wrtq-329acn is not set
 # CONFIG_TARGET_ipq40xx_generic_DEVICE_meraki_mr33 is not set
